@@ -2,7 +2,7 @@ function orderpizza(callback) {
   console.log("me waiting");
   setTimeout(() => {
     const pizza = "me";
-    callback(pizza);
+    callback(pizza)
   }, 2000);
   console.log("me waiting2");
 }
